@@ -1,4 +1,27 @@
+body {
+    background: url('https://img.freepik.com/free-photo/truth-concept-arrangement-with-a-magnifier_23-2149051315.jpg?w=1380&t=st=1688778838~exp=1688779438~hmac=58860da457a73f58599e65649aac06372425299382650d37e38aeeb04e7aefa4') bottom no-repeat;
+    background-size: cover;
+}
+
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
+}
+
+.card-header {
+    height: 10vh;
+    background-color: rgb(184, 241, 241);
+}
+
+.card-footer {
+    height: 10vh;
+    background-color: rgb(184, 241, 241);
+}
+
+#btnRetry {
+    background-color: rgb(211, 171, 248);
+    height: 5vh;
+    width: 15vh;
+    border-color: rgb(144, 4, 236);
+    color: black;
 }
